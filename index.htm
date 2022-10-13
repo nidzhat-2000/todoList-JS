@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="myDIV" class="header">
+        <div class="date2">
+        <span class="date day-month-year">today</span>
+        <span class="date clock">today</span>
+        </div>
+        <h2>What will you do today?</h2>
+        <input
+          class="new--task"
+          type="text"
+          id="input"
+          placeholder="Type here..."
+        />
+        <button class="addBtn">Add</button>
+      </div>
+      <ul class="to-dos">
+        <li class="to-do">
+          Hit the gym
+          <button class="ignore">❌</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="pop-up">
+      <div id="myDIV" class="message">
+        <h2>Please Add Task 🙏</h2>
+        <button class="got">Got it ✔</button>
+      </div>
+    </div>
+    <script defer src="my-script.js"></script>
+    <!-- <script defer src="function.js"></script> -->
+  </body>
+</html>
