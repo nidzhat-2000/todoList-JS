@@ -76,6 +76,8 @@ const doneFunc = e => {
 };
 allTasks.forEach(li => li.addEventListener('click', doneFunc));
 
+console.log(2);
+
 ///////////////////////////
 // Maker task important ⤵
 const importantFun = e => {
